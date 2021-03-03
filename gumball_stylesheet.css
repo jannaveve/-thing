@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document for gumballs*/
+
+
+body{
+	background-color: lightskyblue;
+}
+
+.img{
+	position: absolute;
+	padding-left: 5%;
+}
+
+
+/*text appear*/
+
+.non {
+  display: none;
+}
+
+.visible:hover + .non {
+  display: block;
+  color: white;
+}
