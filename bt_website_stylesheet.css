@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document for starting page*/
+
+/*Text Edits */
+h1{
+	color: steelblue;
+	padding-left: 870px;
+}
+
+
+p{
+	color: red;
+	text-align: right;
+}
+
+
+/*Body Edits */
+body {
+	background-color: beige;
+}
+
+
+/*Classes Edits */
+.loki{
+	position: absolute;
+	left: 100px;
+	
+	z-index: 5;
+}
+.gumball{
+	position: absolute;
+	left: 50%;
+	top: 14%;
+	z-index: 5;
+}
+.mid{
+	position: absolute;
+	z-index: 5;
+	left: 26%;
+	top: 200px;
+}
+
+.img {
+	align-content: center;
+	position: absolute;	
+}
+
+.logo {
+padding-left: 700px;
+}
+
+.error {
+	color: red;
+	text-align: center;
+	font-size: 30px;
+}
